@@ -1,0 +1,147 @@
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = alexnet 
+ dogfile = dognames.txt
+Skipping non-image file: vgg_uploaded-images.txt
+Skipping non-image file: alexnet_uploaded-images.txt
+Skipping non-image file: run_models_batch_uploaded.sh
+Skipping non-image file: resnet_uploaded-images.txt
+Contents of results_dic after classification:
+Dog_01.jpg.png: ['dog 01', 'labrador retriever', 0]
+Coffee_01.jpg.png: ['coffee 01', 'eggnog', 0]
+vgg_uploaded-images.txt: ['vgg uploaded-images', '', 0]
+alexnet_uploaded-images.txt: ['alexnet uploaded-images', '', 0]
+run_models_batch_uploaded.sh: ['run models batch uploaded', '', 0]
+Dog_02.jpg.png: ['dog 02', 'muzzle', 0]
+resnet_uploaded-images.txt: ['resnet uploaded-images', '', 0]
+Cat_01.jpg.png: ['cat 01', 'tabby, tabby cat, cat', 0]
+
+
+*** Results Summary for CNN Model Architecture ALEXNET ***
+N Images            :   8
+N Dog Images        :   0
+N Not-Dog Images    :   8
+ 
+pct_match           : 0.00%
+pct_correct_dogs    : 0.00%
+pct_correct_breed   : 0.00%
+pct_correct_notdogs : 87.50%
+
+INCORRECT Dog/NOT Dog Assignments:
+Pet Label:                     dog 01   Classifier Label:             labrador retriever
+
+Pet Image Label Dictionary has 8 key-value pairs.
+Below are 8 of them:
+ 1 key:                 Dog_01.jpg.png  label:                     dog 01
+ 2 key:              Coffee_01.jpg.png  label:                  coffee 01
+ 3 key:        vgg_uploaded-images.txt  label:        vgg uploaded-images
+ 4 key:    alexnet_uploaded-images.txt  label:    alexnet uploaded-images
+ 5 key:   run_models_batch_uploaded.sh  label:  run models batch uploaded
+ 6 key:                 Dog_02.jpg.png  label:                     dog 02
+ 7 key:     resnet_uploaded-images.txt  label:     resnet uploaded-images
+ 8 key:                 Cat_01.jpg.png  label:                     cat 01
+Skipping non-image file: vgg_uploaded-images.txt
+Skipping non-image file: alexnet_uploaded-images.txt
+Skipping non-image file: run_models_batch_uploaded.sh
+Skipping non-image file: resnet_uploaded-images.txt
+Contents of results_dic after classification:
+Dog_01.jpg.png: ['dog 01', 'labrador retriever', 0]
+Coffee_01.jpg.png: ['coffee 01', 'eggnog', 0]
+vgg_uploaded-images.txt: ['vgg uploaded-images', '', 0]
+alexnet_uploaded-images.txt: ['alexnet uploaded-images', '', 0]
+run_models_batch_uploaded.sh: ['run models batch uploaded', '', 0]
+Dog_02.jpg.png: ['dog 02', 'muzzle', 0]
+resnet_uploaded-images.txt: ['resnet uploaded-images', '', 0]
+Cat_01.jpg.png: ['cat 01', 'tabby, tabby cat, cat', 0]
+
+     MATCH:
+
+ NOT A MATCH:
+
+                Dog_01.jpg.png: 
+Real:                     dog 01   Classifier:             labrador retriever
+
+             Coffee_01.jpg.png: 
+Real:                  coffee 01   Classifier:                         eggnog
+
+       vgg_uploaded-images.txt: 
+Real:        vgg uploaded-images   Classifier:                               
+
+   alexnet_uploaded-images.txt: 
+Real:    alexnet uploaded-images   Classifier:                               
+
+  run_models_batch_uploaded.sh: 
+Real:  run models batch uploaded   Classifier:                               
+
+                Dog_02.jpg.png: 
+Real:                     dog 02   Classifier:                         muzzle
+
+    resnet_uploaded-images.txt: 
+Real:     resnet uploaded-images   Classifier:                               
+
+                Cat_01.jpg.png: 
+Real:                     cat 01   Classifier:          tabby, tabby cat, cat
+
+# Total Images 8 # Matches: 0 # NOT Matches: 8
+
+     MATCH:
+
+ NOT A MATCH:
+
+                Dog_01.jpg.png: 
+Real:                     dog 01   Classifier:             labrador retriever  
+PetLabelDog: 0  ClassLabelDog: 1
+
+             Coffee_01.jpg.png: 
+Real:                  coffee 01   Classifier:                         eggnog  
+PetLabelDog: 0  ClassLabelDog: 0
+
+       vgg_uploaded-images.txt: 
+Real:        vgg uploaded-images   Classifier:                                 
+PetLabelDog: 0  ClassLabelDog: 0
+
+   alexnet_uploaded-images.txt: 
+Real:    alexnet uploaded-images   Classifier:                                 
+PetLabelDog: 0  ClassLabelDog: 0
+
+  run_models_batch_uploaded.sh: 
+Real:  run models batch uploaded   Classifier:                                 
+PetLabelDog: 0  ClassLabelDog: 0
+
+                Dog_02.jpg.png: 
+Real:                     dog 02   Classifier:                         muzzle  
+PetLabelDog: 0  ClassLabelDog: 0
+
+    resnet_uploaded-images.txt: 
+Real:     resnet uploaded-images   Classifier:                                 
+PetLabelDog: 0  ClassLabelDog: 0
+
+                Cat_01.jpg.png: 
+Real:                     cat 01   Classifier:          tabby, tabby cat, cat  
+PetLabelDog: 0  ClassLabelDog: 0
+
+# Total Images 8 # Matches: 0 # NOT Matches: 8
+
+ ** Statistics from calculates_results_stats() function:
+N Images:  8  N Dog Images:  0  N NotDog Images:  8 
+Pct Corr dog:   0.0 Pct Corr NOTdog:  87.5  Pct Corr Breed:   0.0
+
+ ** Check Statistics - calculated from this function as a check:
+N Images:  8  N Dog Images:  0  N NotDog Images:  8 
+Pct Corr dog:   0.0 Pct Corr NOTdog:  87.5  Pct Corr Breed:   0.0
+
+
+*** Results Summary for CNN Model Architecture ALEXNET ***
+N Images            :   8
+N Dog Images        :   0
+N Not-Dog Images    :   8
+ 
+pct_match           : 0.00%
+pct_correct_dogs    : 0.00%
+pct_correct_breed   : 0.00%
+pct_correct_notdogs : 87.50%
+
+INCORRECT Dog/NOT Dog Assignments:
+Pet Label:                     dog 01   Classifier Label:             labrador retriever
+
+** Total Elapsed Runtime: 0:0:1
